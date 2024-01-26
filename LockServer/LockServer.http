@@ -1,0 +1,6 @@
+@LockServer_HostAddress = http://localhost:5251
+
+GET {{LockServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
